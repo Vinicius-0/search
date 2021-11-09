@@ -2,9 +2,10 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
+  padding: 20px;
 }
 header a {
-  margin: 20px;
+  font-size: 14px;
   margin-right: 25px;
   color: #000;
   text-decoration: none;
@@ -15,10 +16,15 @@ header a {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 80px;
 }
 .central form {
   flex-direction: column;
+}
+.central h6 {
+  font-size: 16px;
+  margin-left: 200px;
+  color: #4285f4;
 }
 
 .search-bar {
@@ -28,21 +34,33 @@ header a {
   margin: 20px;
   border-radius: 30px;
   padding-left: 40px;
-  border: 1px solid #dddddd !important;
+  border: 1px solid #dddddd;
+}
+
+.search-bar:focus {
+  -moz-box-shadow: 2px 2px 3px 3px #ccc;
+  -webkit-box-shadow: 2px 2px 3px 3px #ccc;
+  outline: 0;
+  cursor: pointer;
+  box-shadow: 2px 2px 3px 3px #ccc;
 }
 
 .search-button {
+  background-color: #fafafa;
   color: #333333;
   border-radius: 2px;
   margin: 5px;
-  margin-left: 10px;
-  margin-right: 30px;
+  margin-left: 5px;
   border: 0;
-  padding: 12px;
+  padding: 8px;
 }
 
 #search-button1 {
-  margin-left: 150px;
+  margin-left: 170px;
+}
+
+nav {
+  height: 50px;
 }
 
 /*# sourceMappingURL=styles.css.map */
