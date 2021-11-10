@@ -8,20 +8,34 @@
     </head>
     <body>
         <header>
-            <a href="index.html">Google</a>
-            <a href="google_image.html">Images</a>
-        </header>
-        <div class='central'>
-            <div>
+            <a href="index.html">
                 <img src="./images/google.png" alt="Google">
+            </a>
+        </header>
+        <div class='main-advanced'>
+            <div>
+                <h1> Advanced Search </h1>
             </div>
+            <hr/>
+            <a class='find-with' >Find pages with...</a>
             <form action="https://google.com/search">
-                
-                <input type="text" name="q" class='search-bar'>
-                <div>
-                    <input type="submit" value="Google Search" class='search-button' id='search-button1'>
-                    <input type="submit" value="I'm Feeling Lucky" class='search-button' id='search-button2'>
-                </div>
+                <p>
+                    <a>all these words:</a>
+                    <input type="text" name="as_q" class='advanced-search-bar' ><br/>
+                </p><p>
+                    <a>this exact word or phrase:</a>
+                    <input type="text" name="as_epq" class='advanced-search-bar' ><br/>
+                </p><p>
+                    <a>any of these words: </a>
+                    <input type="text" name="as_oq" class='advanced-search-bar' ><br/>
+                </p><p>
+                    <a>none of these words:</a>
+                    <input type="text" name="as_eq" class='advanced-search-bar' >
+                </p>
+                <p>
+                    
+                    <input type="submit"  name="btnK" value="Advanced Search" class='advanced-button'/>
+                </p>
             </form>
         </div>
     </body>

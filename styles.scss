@@ -3,12 +3,15 @@ header {
   justify-content: flex-end;
   align-items: flex-end;
   padding: 20px;
+}
+a {
+  font-size: 14px;
+  margin-right: 25px;
+  color: #000;
+  text-decoration: none;
 
-  a {
-    font-size: 14px;
-    margin-right: 25px;
-    color: #000;
-    text-decoration: none;
+  img {
+    width: 70px;
   }
 }
 
@@ -63,4 +66,54 @@ header {
 
 nav {
   height: 50px;
+}
+hr {
+  display: block;
+  border-top: 1px solid #fafafa;
+  margin-bottom: 50px;
+}
+
+h1 {
+  font-size: 20px;
+  color: #d93025;
+  margin-left: 30px;
+}
+.main-advanced {
+  margin: 20px;
+
+  .find-with {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 25px;
+    font-size: 16px;
+    color: #333333;
+  }
+}
+
+.advanced-search-bar {
+  width: 580px;
+  margin-top: 15px;
+  border: 1px solid #cccccc;
+  margin-left: 20px;
+}
+
+form {
+  display: table;
+  margin-left: 25px;
+  p {
+    display: table-row;
+  }
+  a {
+    display: table-cell;
+  }
+}
+
+.advanced-button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  width: 120px;
+  height: 30px;
+  color: #fff;
+  font-size: 12px;
+  background-color: #4d90fe;
+  border: 1px solid #cccccc;
 }
